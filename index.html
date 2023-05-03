@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Space and shoot</title>
+</head>
+<body>
+    <div id="scene-container">
+        <div id="hud">
+            <div class="energy">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+        <div id="pause" class="screen">
+            <div class="title">Pause</div>
+            <button id="resume">Resume</button>
+            <button id="main-menu">Start screen</button>
+        </div>
+        <div id="game-over" class="screen">
+            <div class="title">Game Over</div>
+            <button id="restart">Restart</button>
+            <button id="main-menu">Start screen</button>
+        </div>
+        <div id="start" class="screen">
+            <div class="title">Star fox clone</div>
+            <button id="play">Start</button>
+            <button id="controls">Controls</button>
+            <button id="credits">About</button>
+            <div class="foot">Made by Dylan Gardner</div>
+        </div>
+    </div>
+    <script type="module" src="./src/index.js"></script>
+</body>
+</html>
